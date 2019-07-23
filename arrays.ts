@@ -16,3 +16,8 @@ carMakers.map(
     return car.toUpperCase();
   }
 );
+
+// Flexible types
+const importantDates: (string | Date)[] = [new Date()];
+importantDates.push("2030-10-10");
+importantDates.push(new Date());
